@@ -36,11 +36,16 @@ header {
 .header-title button i {
   margin: 10px;
 }
+
 .header-banner img {
   width: 556px;
   height: 438px;
   margin: 0;
   padding-right: 146px;
+  transition: transform 2s;
+}
+.header-banner img:hover {
+  transform: scale(0.5);
 }
 /* .header-title,
 .header-banner {
@@ -170,3 +175,8 @@ footer {
   font-size: 18px;
   text-align: center;
 }
+/* media queries */
+
+/* moblies devices*/
+
+@media only screen and (max-width: 688px);
