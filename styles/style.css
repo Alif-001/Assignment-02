@@ -232,7 +232,7 @@ footer {
   .contact {
     width: 95%;
   }
-  footer{
+  footer {
     width: 100;
   }
 }
@@ -259,8 +259,9 @@ footer {
     width: 97%;
   }
 }
-@media screen and (max-width: 5000px) and (min-width:996px){
+@media screen and (max-width: 5000px) and (min-width: 996px) {
   .vsc-initialized {
     width: 1475px;
     overflow-x: hidden;
+  }
 }
