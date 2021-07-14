@@ -179,7 +179,7 @@ footer {
 
 /* moblies devices*/
 
-@media only screen and(min-width:10) and(max-width: 688px) {
+@media only screen and(max-width: 688px) {
   header {
     flex-direction: column;
     width: 100%;
@@ -193,7 +193,7 @@ footer {
   .heading .header-title h1 {
     width: 100%;
     margin-left: 0;
-    font-size: 36px;
+    font-size: 16px;
   }
   .title {
     width: 420px;
@@ -225,18 +225,5 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 170px;
-  }
-}
-/* tablet devices */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
-  .container {
-    width: 100%;
-  }
-  .players,
-  .courses {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .blogs {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
