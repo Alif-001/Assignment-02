@@ -36,9 +36,50 @@ body {
   margin: 0;
   padding-right: 146px;
 }
-.header-title,
+/* .header-title,
 .header-banner {
   margin-top: 0;
   width: 500px;
   height: 400px;
+} */
+/* player section */
+.container {
+  background-color: #ffffff;
+  width: 331px;
+  height: 474px;
+  padding: 30px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 70px;
+}
+.players {
+  width: 330px;
+  height: 500px;
+  box-shadow: 0 0 10px gray;
+}
+.players-img img,
+.players-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.player-img img {
+  height: 256px;
+  width: 300px;
+  padding: 15px;
+  padding-bottom: 0;
+}
+.player-title {
+  margin: 0;
+}
+.player-details {
+  width: 300px;
+  height: 104px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 33px;
 }
