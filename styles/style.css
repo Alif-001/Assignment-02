@@ -7,16 +7,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /* header-part */
+header {
+  display: flex;
+}
 .heading {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #2d25a0;
-  height: 1000px;
+  height: 700px;
 }
 .header-title {
   font-size: 64px;
   color: #ffffff;
+  margin-left: 156px;
+  margin-right: 102px;
+  line-height: 99px;
 }
 .header-title h1 {
   margin: 0;
@@ -31,8 +37,8 @@ body {
   margin: 10px;
 }
 .header-banner img {
-  width: 500px;
-  height: 400px;
+  width: 556px;
+  height: 438px;
   margin: 0;
   padding-right: 146px;
 }
@@ -42,22 +48,29 @@ body {
   width: 500px;
   height: 400px;
 } */
+
 /* player section */
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .container {
   background-color: #ffffff;
   width: 331px;
-  height: 474px;
-  padding: 30px;
-  margin: 0;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+
   margin-top: 70px;
+  margin-left: 144px;
 }
 .players {
   width: 330px;
   height: 500px;
   box-shadow: 0 0 10px gray;
+  display: inline-block;
 }
 .players-img img,
 .players-info {
@@ -82,4 +95,33 @@ body {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 33px;
+}
+/* footer */
+footer {
+  margin-top: 50px;
+}
+.buttom-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 262px;
+  height: 110px;
+}
+.icons {
+}
+.fab {
+  margin: 0 14px;
+  font-size: 23px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  background-color: gray;
+  text-align: center;
+  padding: 7px;
+}
+.copyright {
+  font-size: 18px;
+  text-align: center;
 }
